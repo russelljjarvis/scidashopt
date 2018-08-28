@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Lems xmlns="http://www.neuroml.org/lems/0.7.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/lems/0.7.3 https://raw.githubusercontent.com/LEMS/LEMS/development/Schemas/LEMS/LEMS_v0.7.3.xsd">
+  <Target component="sim1"/>
+  <Component C="9.74940652847e-05 pF" a="0.480463031396 per_ms" b="-3.31378542374e-09 nS" c="-59.1349629921 mV" d="0.108988264245 pA" id="RS" k="0.00103112258156 nS_per_mV" type="izhikevich2007Cell" v0="-53.908777138 mV" vpeak="37.78442615 mV" vr="-64.0259592489 mV" vt="-39.0240247722 mV"/>
+  <Component id="sim1" length="520ms" step="0.0025ms" target="net1" type="Simulation">
+    <Component id="d1" timeScale="1ms" title="RS v" type="Display" xmax="570" xmin="-50" ymax="50" ymin="-80">
+      <Component color="#0000ff" id="RS v" quantity="RS_pop[0]/v" scale="1mV" timeScale="1ms" type="Line"/>
+    </Component>
+    <Component id="d2" timeScale="1ms" title="RS u" type="Display" xmax="570" xmin="-50" ymax="80" ymin="-80">
+      <Component color="#ff0000" id="RS u" quantity="RS_pop[0]/u" scale="1pA" timeScale="1ms" type="Line"/>
+    </Component>
+    <Component fileName="RS_One.dat" id="of0" type="OutputFile">
+      <Component id="v" quantity="RS_pop[0]/v" type="OutputColumn"/>
+      <Component id="u" quantity="RS_pop[0]/u" type="OutputColumn"/>
+    </Component>
+  </Component>
+  <Component id="net1" type="network">
+    <Component component="RS" id="RS_pop" size="1" type="population"/>
+    <Component destination="synapses" id="explicitInput" input="RS_Iext" target="RS_pop[0]" type="explicitInput"/>
+  </Component>
+  <Component amplitude="100 pA" delay="0ms" duration="520ms" id="RS_Iext" type="pulseGenerator"/>
+</Lems>

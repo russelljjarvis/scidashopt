@@ -1,0 +1,2 @@
+INFO:allensdk.api.queries.glif_api:Downloading URL: http://api.brain-map.org/api/v2/data/query.json?q=model::NeuronalModel,rma::criteria,[id$in566302806],rma::include,well_known_files(well_known_file_type),rma::options[num_rows$eq'all'][count$eqfalse]
+INFO:allensdk.api.queries.glif_api:Downloading URL: http://api.brain-map.org/api/v2/well_known_file_download/566321690

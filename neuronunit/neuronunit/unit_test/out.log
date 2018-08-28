@@ -1,0 +1,162 @@
+<module 'neuronunit.optimization.get_neab' from '/home/jovyan/neuronunit/neuronunit/optimization/get_neab.py'>
+['C', 'vt', 'k', 'a', 'b', 'c', 'd', 'vpeak', 'v0', 'vr']
+['C', 'vt', 'k', 'a', 'b', 'c', 'd', 'vpeak', 'v0', 'vr']
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 300.0 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 600.0 pA current and got 11 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 450.0 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 525.0 pA current and got 2 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 487.5 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 506.25 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 515.625 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 520.3125 pA current and got 1 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 517.96875 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 519.140625 pA current and got 1 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 518.5546875 pA current and got 0 spikes
+Highest subthreshold current is 518.55 pA
+Lowest suprathreshold current is 519.14 pA
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 300.0 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 600.0 pA current and got 5 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 450.0 pA current and got 3 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 375.0 pA current and got 1 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 337.5 pA current and got 1 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 318.75 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 328.125 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 332.8125 pA current and got 1 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 330.46875 pA current and got 1 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 329.296875 pA current and got 0 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 329.8828125 pA current and got 0 spikes
+Highest subthreshold current is 329.88 pA
+Lowest suprathreshold current is 330.47 pA
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
+
+Population RS_pop contains 1 instance(s) of component: RS of type: izhikevich2007Cell
+Injected 300.0 pA current and got 16 spikes
+Mechanisms already loaded from path: /home/jovyan/neuronunit/neuronunit/models/NeuroML2.  Aborting.
+
+    Starting simulation in NEURON of 650.0ms generated from NeuroML2 model...
