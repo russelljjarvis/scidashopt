@@ -2,28 +2,14 @@
 # author Rick Gerkin rgerkin@asu.edu
 # neuronunit-showcase
 
-
-#################
-# Showcase for model optimization using NeuronUnit.
-#################
 FROM scidash/neuronunit
-
-
 USER root
-
 RUN apt update -y
 RUN apt upgrade -y
 RUN apt-get upgrade python
-
-
-# RUN locate *.egg-link
-
 RUN apt-get update
 RUN apt-get install -y gvfs-bin libxss1 python3-setuptools
 RUN apt-get install -y python-tk curl apt-utils
-# RUN conda install -c anaconda pyzmq
-# RUN conda install -c anaconda libsodium jupyter dask distributed
-
 RUN sudo chown -R jovyan /home/jovyan/.cache
 
 
@@ -38,10 +24,7 @@ RUN pip install IPython \
 RUN conda info --envs
 RUN conda update -n root conda
 RUN pip install pillow zmq --upgrade
-RUN pip install pyzmq
-#numba is for optimized code, bqplot is for interactive plotting.
-
-
+RUN pip install pyzmq 
 
 RUN easy_install gevent
 RUN easy_install greenlet
@@ -69,10 +52,10 @@ USER $NB_USER
 
 ADD neuronunit neuronunit
 WORKDIR neuronunit
-
 RUN pip install -e .
 
 WORKDIR $HOME
+
 ADD BluePyOpt BluePyOpt
 WORKDIR BluePyOpt
 RUN pip install -e .
@@ -97,9 +80,5 @@ WORKDIR $HOME
 
 WORKDIR $HOME
 RUN python3 -c "import bluepyopt"
-
-# WORKDIR $HOME/neuronunit/neuronunit/unit_test
 RUN pip install radon -U
 RUN pip install jupyter -U
-# RUN pip uninstall tornado
-# ENTRYPOINT python grid_vs_ga_h_constant.py; python grid_vs_ga.py
