@@ -54,8 +54,15 @@ WORKDIR BluePyOpt
 RUN pip install -e .
 WORKDIR $HOME
 
+
 USER jovyan
+
+RUN sudo chown -R jovyan $HOME
+
+
 RUN printenv PATH
+RUN python -c "import bluepyopt"
+
 RUN python -c "import pyneuroml"
 RUN python -c "import neuronunit"
 # RUN python -c "from neuronunit.models.reduced import ReducedModel"
