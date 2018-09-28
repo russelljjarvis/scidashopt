@@ -13,7 +13,6 @@ git clone -b dev https://github.com/russelljjarvis/neuronunit
 wget https://raw.githubusercontent.com/russelljjarvis/scidashopt/master/Dockerfile
 docker build -t scidash/neuronunit-optimization_juypter .
 ```
-## END of file contents
 
 * 3 Run build.sh with: 
 `$bash build.sh`
