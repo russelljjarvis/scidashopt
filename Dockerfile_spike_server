@@ -76,10 +76,5 @@ WORKDIR $HOME
 RUN git clone https://github.com/OpenSourceBrain/IzhikevichModel.git
 
 WORKDIR $HOME/neuronunit/neuronunit/unit_test
-
-RUN echo $pwd
-RUN ls *
-WORKDIR $HOME
-WORKDIR $HOME/neuronunit/neuronunit/unit_test
 RUN pip install --upgrade pandas
 ENTRYPOINT /bin/bash
