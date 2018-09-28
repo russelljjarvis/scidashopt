@@ -17,7 +17,8 @@ docker build -t scidash/neuronunit-optimization_juypter .
 
 Run build.sh with: 
 `$bash build.sh`
-Then enter the container (interactively):
+
+*After the above commands/script is run then enter the container (interactively):
 ```bash
 docker run -it -v ~/git_opt/neuronunit:/home/jovyan/neuronunit -v ~/git_opt/BluePyOpt:/home/jovyan/BluePyOpt scidash/neuronunit-optimization_juypter /bin/bash
 ```
