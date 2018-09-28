@@ -13,10 +13,7 @@ wget https://raw.githubusercontent.com/russelljjarvis/scidashopt/master/Dockerfi
 docker build -t scidash/neuronunit-optimization_juypter .
 ```
 
-* 3 Run build.sh with: 
-`$bash build.sh`
-
-* 4 After the above commands/script is run then enter the container (interactively):
+* 4 After the above commands are run enter the container (interactively):
 ```bash
 docker run -it -v ~/git_opt/neuronunit:/home/jovyan/neuronunit -v ~/git_opt/BluePyOpt:/home/jovyan/BluePyOpt scidash/neuronunit-optimization_juypter /bin/bash
 ```
