@@ -1,4 +1,6 @@
-## Instructions for building with Docker on CENTOS server:
+## Instructions for building with Docker on the CENTOS spike server:
+
+* 1 create a new directory and navigate into it:
 ``` bash
 mkdir git_opt
 cd git_opt
