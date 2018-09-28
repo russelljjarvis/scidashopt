@@ -74,12 +74,7 @@ RUN nrniv
 WORKDIR $HOME
 
 RUN git clone https://github.com/OpenSourceBrain/IzhikevichModel.git
-WORKDIR IzhikevichModel/NeuroML2/
-# RUN jnml LEMS_WhichModel.xml
-WORKDIR IzhikevichModel/PyNN/
-RUN python izhikevich2004.py neuron
-RUN python izhikevich2004.py nest
-ENV PYTHONPATH $HOME/neuronunit:$PYTHONPATH
+
 WORKDIR $HOME/neuronunit/neuronunit/unit_test
 
 RUN echo $pwd
