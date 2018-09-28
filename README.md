@@ -5,9 +5,8 @@
 mkdir git_opt
 cd git_opt
 ```
-* 2 Then, create a file called `build.sh` whose contents are:
+* 2 Sequentially issue the following commands:
 ```
-#!/bin/bash
 git clone -b scidash https://github.com/russelljjarvis/BluePyOpt
 git clone -b dev https://github.com/russelljjarvis/neuronunit
 wget https://raw.githubusercontent.com/russelljjarvis/scidashopt/master/Dockerfile
