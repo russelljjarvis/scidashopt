@@ -5,7 +5,7 @@
 mkdir git_opt
 cd git_opt
 ```
-*Then, create a file called build.sh whose contents are:
+*Then, create a file called `build.sh` whose contents are:
 ```
 #!/bin/bash
 git clone -b scidash https://github.com/russelljjarvis/BluePyOpt
