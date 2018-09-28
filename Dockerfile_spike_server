@@ -90,4 +90,3 @@ RUN pip install --upgrade pandas
 ENTRYPOINT /bin/bash
 # ENTRYPOINT python experiment.py
 # ENTRYPOINT python grid_vs_ga_h_constant.py #; python grid_vs_ga.py
-​
