@@ -4,7 +4,9 @@
 ``` bash
 mkdir git_opt
 cd git_opt
-Create a file called build.sh whose contents are:
+```
+*Then, create a file called build.sh whose contents are:
+```
 #!/bin/bash
 git clone -b scidash https://github.com/russelljjarvis/BluePyOpt
 git clone -b dev https://github.com/russelljjarvis/neuronunit
