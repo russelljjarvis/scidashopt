@@ -75,7 +75,7 @@ WORKDIR $HOME
 
 RUN git clone https://github.com/OpenSourceBrain/IzhikevichModel.git
 WORKDIR IzhikevichModel/NeuroML2/
-RUN jnml LEMS_WhichModel.xml
+# RUN jnml LEMS_WhichModel.xml
 WORKDIR IzhikevichModel/PyNN/
 RUN python izhikevich2004.py neuron
 RUN python izhikevich2004.py nest
